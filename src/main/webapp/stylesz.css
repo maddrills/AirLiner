@@ -1,0 +1,54 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+nav{
+    background-color: peachpuff;
+    height: 100px;
+    padding: 0 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+nav h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 1em 0;
+    padding: 10px;
+}
+
+body{
+    background-color: indianred;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.form-center {
+    display:flex;
+    justify-content: center;
+}
+
+table {
+    padding: 30px;
+    border-collapse: collapse;
+    width: 50%;
+}
